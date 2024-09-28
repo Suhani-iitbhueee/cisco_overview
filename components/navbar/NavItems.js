@@ -259,12 +259,13 @@ export const Incubators = () => {
             </a>
             {/* </Link> */}
 
-            <a
+            {/* <a
               className="dropdown-item"
               href="https://thingqbator.nasscomfoundation.org/"
               rel="noreferrer"
               target="_blank"
-            >
+            > */}
+            <Link href="/ciscotq" passHref className="dropdown-item">
               <FcIdea fontSize="2rem"></FcIdea>
               <div>
                 <h4>Cisco thingQbator</h4>
@@ -273,7 +274,7 @@ export const Incubators = () => {
                   incubator
                 </p>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="dropdown-subcontainer">
             <a
